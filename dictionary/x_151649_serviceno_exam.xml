@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Exam" max_length="40" name="x_151649_serviceno_exam" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="1000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Subject " label="Idea type" mandatory="true" max_length="40" name="u_idea_type" type="string">
+            <choice>
+                <element label="Subject Title" sequence="0" value="Subject"/>
+                <element label="Semester type" sequence="1" value="Semester"/>
+                <element label="Class Type" sequence="2" value="Class"/>
+            </choice>
+        </element>
+        <element label="Idea Implemented" max_length="40" name="u_implemented" type="boolean"/>
+        <element label="Innovative process" max_length="40" name="u_innovative_process" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" mandatory="true" max_length="125" name="u_short_description" type="string"/>
+    </element>
+</database>

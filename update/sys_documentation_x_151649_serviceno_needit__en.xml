@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="NeedIt" language="en" table="x_151649_serviceno_needit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>NeedIt</label>
+            <language>en</language>
+            <name>x_151649_serviceno_needit</name>
+            <plural>NeedIts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-03 17:11:55</sys_created_on>
+            <sys_id>bf4fdaf1db36030030ec7e7dbf961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NeedIt</sys_name>
+            <sys_package display_value="ServiceNowAdmin" source="x_151649_serviceno">ce24e101db76030030ec7e7dbf9619a9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServiceNowAdmin">ce24e101db76030030ec7e7dbf9619a9</sys_scope>
+            <sys_update_name>sys_documentation_x_151649_serviceno_needit__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-03 17:11:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
